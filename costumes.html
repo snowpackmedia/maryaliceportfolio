@@ -17,7 +17,7 @@
     <meta property="og:url" content="URL_TO_YOUR_WEBSITE">
     <meta name="og:site_name" content="Costume Design Portfolio">
 
-    <!-- SEO-friendly Twitter meta tags -->`
+    <!-- SEO-friendly Twitter meta tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Costume Design Portfolio">
     <meta name="twitter:description"
@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="styles.css">
     <script src="scripts/content-loaders.js" defer></script>
     <script src="scripts/header-footer.js" defer></script>
+    <script src="scripts/modal-image.js" defer></script>    
 </head>
 
 <body>
@@ -37,10 +38,11 @@
     <main id="costumes">
         <section>
             <h2>Mary Alice Briggs Design - Costumes</h2>
-            <p>I've had the privilege of designing several shows for the Westlake High School drama department in Saratoga Springs, Utah 
-                and for the Romance Theater Company in Rexburg, Idaho. Click the links below to see some of my work.</p>            
+            <p>I've had the privilege of designing several shows for the Westlake High School drama department in
+                Saratoga Springs, Utah
+                and for the Romance Theater Company in Rexburg, Idaho. Click the links below to see some of my work.</p>
         </section>
-        <section >
+        <section>
             <ul id="costume-list">
                 <li>Into The Woods - Westlake High School</li>
                 <li>Shrek - Westlake High School</li>
@@ -48,12 +50,22 @@
                 <li>The Miracle Worker - Westlake High School</li>
                 <li>Newsies - Rexburg City Youth Drama Camp</li>
                 <li>Suite Surrender - Romance Theater Company</li>
-                <li>Interrupting Chickens - Romance Theater Company</li>
+                <li>Interrupting Chickens - Rexburg City Youth Drama Camp</li>
             </ul>
         </section>
         <hr>
-        <section id="costume-content">            
+        <section id="costume-content">
         </section>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <img id="modal-image" src="">
+            </div>
+
+        </div>
     </main>
     <footer></footer>
 
