@@ -18,6 +18,7 @@ async function loadContent(filename) {
     if (response.ok) {
         let html = await response.text()
         content.innerHTML = html
+        content.scrollIntoView({behavior: "smooth"})
     }
     else {
         content.innerHTML = "<h3>Problem loading content</h3>"
