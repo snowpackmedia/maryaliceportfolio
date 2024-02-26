@@ -65,6 +65,8 @@ footer {
     text-align: center;
     padding: .5em;
     font-family: 'Salsa', cursive;
+    display: flex;
+    justify-content: space-around;
 }
 
 #home section{
@@ -288,4 +290,16 @@ footer {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+#terms{
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#privacy{
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
