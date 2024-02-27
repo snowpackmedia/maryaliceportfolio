@@ -233,14 +233,6 @@ footer {
   to {opacity: 1}
 }
 
-@media (max-width: 600px){
-    nav a{
-        display: block;
-    }
-    header div{
-        display: block;
-    }
-}
 
 /* Sewing stuff */
 #sewing{
@@ -302,4 +294,19 @@ footer {
   padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+
+@media (max-width: 600px){
+    nav a{
+        display: block;
+    }
+    header div{
+        display: block;
+    }
+
+
+    footer {
+      display: block;
+  }
 }
